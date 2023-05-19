@@ -1,0 +1,89 @@
+{
+  "Logins": [
+    {
+      "name": "Priyadarshan",
+      "username": "Darshan",
+      "email": "priyadarshanmanohraran@gmail.com",
+      "password": "Password123",
+      "id": 1
+    },
+    {
+      "name": "Srikanth",
+      "username": "me!",
+      "email": "srikanth@dmail.com",
+      "password": "sivajivailajilebi",
+      "id": 2
+    },
+    {
+      "name": "God",
+      "username": "Thunder",
+      "email": "darshan@g2technologies.com",
+      "password": "oooooooo",
+      "id": 3
+    },
+    {
+      "name": "ArulSeeli",
+      "username": "Darshan",
+      "email": "priyadarshanmanoharan@gmail.co",
+      "password": "Password123",
+      "id": 4
+    }
+  ],
+
+  "clothes":[
+{
+  "id":5,
+  "price":"20$",
+  "size": "M",
+  "photo":"https://i.pinimg.com/564x/6f/c2/0c/6fc20c672f9d7d105979b23c3692b22b.jpg",
+  "brand":"Puma",
+  "category":"Spidey T-shirt"
+  
+},
+{
+  "id":6,
+  "price":"15$",
+  "size": "L",
+  "photo":"bootstrap-5.3.0-alpha3-dist/images/tshirt2.jfif",
+  "brand":"Adidas",
+  "category":"Avengers"
+  
+},
+{
+  "id":7,
+  "price":"18$",
+  "size": "M",
+  "photo":"bootstrap-5.3.0-alpha3-dist/images/tshirt4.jpg",
+  "brand":"Nike",
+  "category":"Marvel T-shirt"
+  
+},
+{
+  "id":8,
+  "price":"13$",
+  "size": "M",
+  "photo":"bootstrap-5.3.0-alpha3-dist/images/tshirt2.jfif",
+  "brand":"WoodLand",
+  "category":"Avengers"
+  
+},
+{
+  "id":9,
+  "price":"15$",
+  "size": "L",
+  "photo":"bootstrap-5.3.0-alpha3-dist/images/tshirt2.jfif",
+  "brand":"Adidas",
+  "category":"Avengers"
+  
+},
+{
+  "id":10,
+  "price":"17$",
+  "size": "L",
+  "photo":"bootstrap-5.3.0-alpha3-dist/images/tshirt2.jfif",
+  "brand":"Adidas",
+  "category":"Avengers"
+  
+}
+  ]
+}

@@ -1,0 +1,157 @@
+/* fonts  */
+@font-face {
+  font-family: myfont;
+  src: url('../E-commerce/bootstrap-5.3.0-alpha3-dist/fonts/Nunito-VariableFont_wght.ttf');
+}
+
+
+nav {
+    background-image: linear-gradient(to right, #870000, #190a05);
+}
+.categories{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cat{
+    font-family: myfont;
+}
+
+
+/* card  */
+.category {
+    width: px;
+    height: 254px;
+    background: #07182E;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .category h2 {
+    z-index: 1;
+    color: white;
+    font-size: 2em;
+  }
+  
+  .category::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+  }
+  
+  @keyframes rotBGimg {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .category::after {
+    content: '';
+    position: absolute;
+    background: #07182E;
+    
+    inset: 5px;
+    border-radius: 15px;
+  }  
+  
+
+  /* clothes page card  */
+.dressclr{
+  font-family: monospace;
+}
+
+/* button  */
+.uiverse {
+  position: relative;
+  background: #ffffff;
+  color: #000;
+  /* padding: 15px;
+  margin: 10px; */
+  border-radius: 10px;
+  height: 50px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 10px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.uiverse:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+svg:hover span,
+svg:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.uiverse:hover,
+.uiverse:hover .tooltip,
+.uiverse:hover .tooltip::before {
+  background: #457fca;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
+}
+.cart:hover,.cart:hover .tooltip ,
+.cart:hover .tooltip::before{
+  background: #F00000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+  html{
+    scroll-behavior: smooth;
+  }
+  
+
+  /* login css  */
+  .login{
+
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
