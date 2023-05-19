@@ -35,35 +35,35 @@
   "id":5,
   "price":"20$",
   "size": "M",
-  "photo":"https://i.pinimg.com/564x/6f/c2/0c/6fc20c672f9d7d105979b23c3692b22b.jpg",
-  "brand":"Puma",
-  "category":"Spidey T-shirt"
+  "photo":"https://www.redwolf.in/image/cache/catalog/sweatshirts/DTG/mechanical-bat-logo-sweatshirt-india-438x438.jpg",
+  "brand":"Mechanical Bat-Logo - Batman Official Hoodie",
+  "category":"REDWOLF HOODIE"
   
 },
 {
   "id":6,
-  "price":"15$",
+  "price":"23$",
   "size": "L",
-  "photo":"bootstrap-5.3.0-alpha3-dist/images/tshirt2.jfif",
+  "photo":"https://www.redwolf.in/image/cache/catalog/sweatshirts/DTG/riri-williams-hoodie-india-438x438.jpg",
   "brand":"Adidas",
-  "category":"Avengers"
+  "category":"Iron Man"
   
 },
 {
   "id":7,
   "price":"18$",
   "size": "M",
-  "photo":"bootstrap-5.3.0-alpha3-dist/images/tshirt4.jpg",
+  "photo":"https://www.redwolf.in/image/cache/catalog/sweatshirts/DTG/spider-suits-art-hoodie-india-438x438.jpg",
   "brand":"Nike",
-  "category":"Marvel T-shirt"
+  "category":"Spidey"
   
 },
 {
   "id":8,
   "price":"13$",
   "size": "M",
-  "photo":"bootstrap-5.3.0-alpha3-dist/images/tshirt2.jfif",
-  "brand":"WoodLand",
+  "photo":"https://www.redwolf.in/image/cache/catalog/sweatshirts/superman-black-suit-hoodie-india-2-438x438.jpg",
+  "brand":"Superman: The Black Suit - Justice League Official Hoodie",
   "category":"Avengers"
   
 },
@@ -71,8 +71,8 @@
   "id":9,
   "price":"15$",
   "size": "L",
-  "photo":"bootstrap-5.3.0-alpha3-dist/images/tshirt2.jfif",
-  "brand":"Adidas",
+  "photo":"https://www.redwolf.in/image/cache/catalog/sweatshirts/black-suit-mask-hoodie-india-438x438.jpg",
+  "brand":"Black Suit Mask - Marvel Official Hoodie",
   "category":"Avengers"
   
 },
@@ -80,7 +80,7 @@
   "id":10,
   "price":"17$",
   "size": "L",
-  "photo":"bootstrap-5.3.0-alpha3-dist/images/tshirt2.jfif",
+  "photo":"https://www.redwolf.in/image/cache/catalog/sweatshirts/marvel-captain-america-mechanical-shield-sweatshirt-india-1-438x438.jpg",
   "brand":"Adidas",
   "category":"Avengers"
   

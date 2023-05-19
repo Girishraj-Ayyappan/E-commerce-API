@@ -72,8 +72,8 @@ function login() {
         }
   
         if (isAuthenticated) {
-          alert("Success");
-          window.location.url("http://127.0.0.1:5500/Index.html#!")
+          
+          window.location.href="./index.html"
         } else {
           console.log("Unsuccessful");
         }
